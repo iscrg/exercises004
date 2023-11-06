@@ -1,4 +1,10 @@
 def perforated(string):
+    """
+    The function checks the word for perforated letters.
+    :param string: String
+    :return: True/False
+    """
+
     letters = ['a', 'b', 'd', 'e', 'g', 'o', 'p', 'q']
     for letter in letters:
         if letter in string:

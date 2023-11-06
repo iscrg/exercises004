@@ -4,6 +4,7 @@ def sorter(string):
     :param string: string
     :return: sorted string
     """
+
     lst = list(string)
     lst.sort(key=str.lower)
     string = ''.join(lst)
